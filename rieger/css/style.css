@@ -236,14 +236,7 @@ Index
 Gallery
 #####*/
 
-#gallerySection {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-.gallery-welcome {
-    width: 100%;
+#galleryWelcomeSection {
     height: 40vh;
     background-color: var(--c2);
     display: flex;
@@ -254,9 +247,15 @@ Gallery
     padding-right: 100px;
 }
 
-.gallery-welcome h3 {
+#galleryWelcomeSection h3 {
     font-family: "Dancing Script";
     text-shadow: 1px 1px 0px var(--c3);
+}
+
+#gallerySection {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 #carouselGallery {
@@ -492,7 +491,7 @@ Phone Responsivity
     Gallery
     #####*/
 
-    .gallery-welcome {
+    #galleryWelcomeSection {
         height: 80vh;
         text-align: center;
     }
@@ -533,6 +532,11 @@ Phone Responsivity
     /*#####
     Contact
     #####*/
+
+    #contactWelcomeSection {
+        height: 80vh;
+        text-align: center;
+    }
 
     .accordion-body {
         display: flex;
