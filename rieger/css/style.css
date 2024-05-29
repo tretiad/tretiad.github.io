@@ -217,9 +217,8 @@ Index
     justify-content: space-evenly;
     align-items: center;
     border-top: 4px solid var(--c2);
-    height: auto;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .card {
