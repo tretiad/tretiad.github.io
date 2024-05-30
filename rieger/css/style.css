@@ -26,7 +26,7 @@ body {
 }
 
 .green-shadow {
-    text-shadow: 4px 4px 0px var(--c3);
+    text-shadow: 2px 2px 0px var(--c3);
 }
 
 .basic-link {
