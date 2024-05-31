@@ -3,7 +3,7 @@ Vitajte v našom priečinku. Zatiaľ tento priečinok funguje len pre zdieľanie
 
 Nižšie sú linky pre zdieľané webstránky:
 
-[Adrián Finik](oazazdravia.vercel.app)
+[Adrián Finik](https://oazazdravia.vercel.app/)
 
 [Samuel Garb]
 
