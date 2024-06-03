@@ -1,4 +1,4 @@
-# 3D
+# Trieda 3.D SPŠITIG
 Vitajte v našom priečinku. Zatiaľ tento priečinok funguje len pre zdieľanie webstránok na koncoročný projekt z predmetu TIR.
 
 Nižšie sú linky pre zdieľané webstránky:
