@@ -13,7 +13,7 @@ Nižšie sú linky pre zdieľané webstránky:
 
 [Marek Holub]
 
-[Jozef Hudec]
+[Jozef Hudec](https://tretiad.github.io/hudec)
 
 [Andrej Jakubjak]
 
@@ -37,6 +37,6 @@ Nižšie sú linky pre zdieľané webstránky:
 
 [Matúš Skurčák]
 
-[Henrich Strapec]
+[Henrich Strapec](https://tretiad.github.io/strapec)
 
 [Alena Šurinčíková]
