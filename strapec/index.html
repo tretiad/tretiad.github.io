@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>TechNews</title>
+        <link rel="icon" href="img/logo.png">
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="css/styles.css">
+        <!--League gothic font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=League+Gothic&display=swap" rel="stylesheet">
+        <!--ikony-->
+        <script src="https://kit.fontawesome.com/befb46ad7a.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <header>
+          <!--navbar-->
+            <nav class="navbar navbar-expand-lg myNavbar navbar-dark"> <!--navbar dark je pre to, aby bolo svetlé tlačítko-->
+                <div class="container-fluid">
+                  <a class="navbar-brand myNavLogo" href="index.html">
+                    <img src="img/logo.png" alt="TechNews logo" width="50" height="50">
+                  </a> 
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  
+                  <div class="collapse navbar-collapse justify-content-around" id="navbarNav">
+                    <ul class="navbar-nav justify-content-around myNavbar-ul">
+                      <li class="nav-item myNavbar-li">
+                        <a class="nav-link text-reset" aria-current="page" href="galéria/galeria.html">Galéria</a>
+                      </li>
+                      <li class="nav-item myNavbar-li">
+                        <a class="nav-link text-reset myNavLink" href="o nás/o nas.html">O nás</a>
+                      </li>
+                      <li class="nav-item myNavbar-li">
+                        <a class="nav-link text-reset" href="kontakt/kontakt.html">Kontakt</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+          
+          
+          <!--carousel-->
+          <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" style="z-index: 0;">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/carousel bg/carosuel img a.png" class="d-block w-100" alt="carousel pc-setup">
+              </div>
+              <div class="carousel-item">
+                <img src="img/carousel bg/carosuel img b.png" class="d-block w-100" alt="carousel museum hall">
+              </div>
+              <div class="carousel-item">
+                <img src="img/carousel bg/carosuel img c.png" class="d-block w-100" alt="carousel car production">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          
+          <div class="articleContainer">
+            <!--linky ana články-->
+                <div class="articleHeadingDiv"><h1 class="articleHeading">NENECHAJTE SI UJSŤ!</h1></div>
+
+                  <div class="card h-100">
+                    <a href="clanky/1.html">
+                      <img src="img/články/iphone.png" class="card-img-top" alt="iphone" height="300px" width="200px">
+
+                      <div class="card-body">
+                        <h2 class="card-title">iPhone XX: Nová éra inovácií v mobilnej technológii</h2>
+                        <p class="card-text">Nová technológia od teraz zmení svet Apple telefónov. Bude si ho však môcť dovoliť každý?</p>
+                      </div>
+                    </a>
+                  </div>
+              
+                <div class="card h-100">
+                  <a href="clanky/2.html">
+                  <img src="img/články/air tag.png" class="card-img-top" alt="air tag" height="300px" width="200px">
+                  <div class="card-body">
+                    <h2 class="card-title">Air-Tag 2023: Nová Dimenzia Sledovania</h2>
+                    <p class="card-text">Toto zariadenie prekračuje hranice lokalizácie s inovatívnou technológiou</p>
+                  </div>
+                  </a>
+                </div>
+                
+          </div>
+        <!--postránky-->
+        <div class="linkContainer"> <!--kontainer, na pozadí obrázok-->
+          <div class="links"> <!--blur a tlačítka-->
+            <button class="linkButton"  onclick="location.href='o nás/o nas.html'">O nás</button>
+            <button class="linkButton" onclick="location.href='galéria/galeria.html'">Galéria</button>
+            <button class="linkButton" onclick="location.href='kontakt/kontakt.html'">Kontakt</button>
+          </div>
+        </div>
+
+          
+        </main>
+        <footer>
+            <!--footer-->
+            <div class="footerContainer"><!--container-->
+              <div class="footerSubContainer">
+              
+                <img class="footerLogo" src="img/logo.png" alt="TechNews logo">
+                
+                <div class="footerSubpages"><!--podstránky-->
+                  <a href="index.html"><h3>Home</h3></a>
+                  <a href="galéria/galeria.html"><h3>Galéria</h3></a>
+                  <a href="kontakt/kontakt.html"><h3>Kontakt</h3></a>
+                  <a href="o nás/o nas.html"><h3>O nás</h3></a>
+                </div>
+
+              </div>
+              <div class="footerSubContainer">
+                <div class="footerSubpages">
+                  <a href="https://www.instagram.com"><i class="fa-brands fa-instagram myIcon"></i></a>
+                  <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook myIcon"></i></a>
+                  <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube myIcon"></i></a>
+                  <a href="https://www.twitter.com/"><i class="fa-brands fa-x-twitter myIcon"></i></a>
+                </div>
+
+                <div class="footerSubpages">
+                  <h3 clas>Autor stránky</h3>
+                  <p>Henrich Strapec 3.D</p>
+                  <h3>Kontakt</h3>
+                  <p>mail@mail.com<br> +421 123 456 789</p>
+                </div>
+              </div>
+            </div>
+        </footer>
+        <!-- Bootstrap JavaScript Libraries -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>

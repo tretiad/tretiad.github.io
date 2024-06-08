@@ -1,0 +1,353 @@
+.league-gothic-font {
+  font-family: "League Gothic", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+body{
+    font-family: "League Gothic", sans-serif;
+
+}
+a{
+    text-decoration: none;
+}
+
+/*      navbar      */
+.myNavbar-logo{
+    width: 5rem;
+}
+.myNavbar{ 
+    font-size: 2rem;
+    display: flex;
+    background-color: rgba(0, 0, 0,0.5);
+    backdrop-filter:blur(10px);
+    position: fixed;
+    width: 100%;
+    padding: 0;
+    color: #F9C22E;
+    
+    z-index: 1; /*aby bol navbar nad carouselom*/
+}
+
+.myNavbar-li{
+    /* margin-left: auto; */
+    transition: 0,5s;
+}.myNavbar-li:hover{
+    transition: 0,5s;
+    color:#E01A4F; 
+}
+.myNavbar-ul{
+    width: 100%;
+}
+.myNavLogo{
+ transition: 1s;
+}
+.myNavLogo:hover{
+    transition: 0,5s;
+    scale: 110%;
+}
+.myBackgroundimage{
+    width: 100%;
+}
+/*      pod hero sekciou - link page    <---  */
+main{
+    background-image:url("../img/mesto/ulica.png");
+    background-size: cover;
+    background-position: center;/*obrázok zarovná na stred*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;/*rovnaká poloha*/
+}
+/*carousel*/
+.carousel{
+    box-shadow:0px 0px 10px 10px rgb(0, 0, 0,0.7) ;
+}
+@media (max-width:700px){
+    .carousel{
+        padding-top: 60px;
+    }  
+}
+
+.articleContainer{
+    display: flex;
+    justify-content:space-around;
+    padding: 30px;
+    padding-right: 10%;
+    background: rgb(12,9,13,0.7);
+    background: linear-gradient(115deg, rgba(12,9,13,0.7) 0%, rgba(59,44,64,0.7) 50%, rgba(106,80,115,0.7) 100%);
+}@media (max-width:700px){
+    .articleContainer{
+        flex-direction: column; 
+    }  
+}
+.card{
+    margin: 15px;
+    border: 0;
+    transition: 0.5s;
+}.card:hover{
+    transition: 1s;
+    scale: 105%;
+    box-shadow: 0px 0px 10px 10px rgba(249, 195, 46, 0.3);
+    
+}
+.articleHeading{
+    color: #F9C22E;
+    text-align: center;
+}
+.articleHeadingDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-img-top{
+    width: 100%;
+    background-position:center;
+    object-fit: cover;
+}
+.card-text{
+    font-size: 100%;
+}
+.card-body{
+    color: black;
+}
+/*     linky na stránky       */
+.linkContainer{
+    width: 100%;
+    display: flex;
+    background-image: url("../img/toolsTable.png");
+    background-position:center;/*obrázok zarovná na stred*/
+    background-repeat: no-repeat;
+    background-attachment:local;/*rovnaká poloha*/
+}
+.links{
+    background-color:rgb(0, 0, 0,0.7);
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.linkButton{
+    margin:3vw;
+    font-size: 3rem;
+    border-radius:3rem;
+    border: 0;
+    background-color:rgba(224, 26, 79, 0.8);
+    transition: 1s;
+}.linkButton:hover{
+    transition: 0.5s;
+    background-color:rgba(224, 26, 79);
+}
+@media (max-width:500px){
+    .links{
+        width: 100%;
+       
+    }
+    .linkContainer{
+        flex-direction: row;
+        justify-content: center;
+        z-index: 0;
+    }
+    .linkButton{
+        font-size:10vw;
+    }
+}
+
+/*     footer       */
+.footerLogo{
+    width: 30%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.footerContainer{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    padding: 4%;
+}
+.myIcon{
+    color: rgba(224, 26, 79, 0.8);
+    font-size: 30px;
+    margin-bottom: 10px;
+}.myIcon:hover{
+    color: #E01A4F;
+}
+.footerSubpages{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 1rem;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.footerSubContainer{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}   
+@media (max-width:500px) {
+    .footerContainer{
+        flex-direction: column;
+        padding-top: 5px;
+    }
+    .footerSubContainer{
+        margin-bottom: 5%;
+        margin-top: 5%;
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+    }
+    .footerLogo{
+        width: auto;
+        height: 15vh;
+    }
+
+}
+/*-  --------   -*/
+/*   Galéria    -*/
+/*-  --------   -*/
+.galleryAccordion{
+    padding: 3%;
+    min-height: 50vh;
+}
+.galleryImg{
+    width: 40%;
+    border-radius: 14px;
+}
+.accordion-body{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color:rgba(54, 54, 54, 0.7);
+}
+/*-  --------   -*/
+/*     o nás    -*/
+/*-  --------   -*/
+.blackContainers{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.blackContainer{
+    height: auto;
+    width: 70%;
+    margin: auto;
+    background-color: rgba(0, 0, 0,0.5);
+    backdrop-filter:blur(10px);
+}@media (max-width:425px){
+    .blackContainer{
+        width: 90%;
+    }
+}
+.blackContainerHeader{
+    height: fit-content;
+    width: 100%;
+    margin: auto;
+    background-color: rgba(0, 0, 0,0.5);
+    backdrop-filter:blur(10px);
+    color: #ffffff;
+    padding-left: 5px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.blackContainerBody{
+    color: #ffffff;
+    width: 100%;
+    padding: 1%;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+}@media (max-width:425px){
+    .blackContainerBody{
+        font-size: 5rem;
+    }
+}
+.blackContainerSpan{
+    display: flex;
+}
+.blackContainerIcon{
+    margin: 5px;
+    font-size: 100%;
+}
+.blackContainerLogo{
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+.blackContainerLogoDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: auto; 
+    overflow: hidden;
+    padding: 5%;
+}@media (max-width:750px){
+    .blackContainerBody{
+        flex-direction: column;
+        font-size:4vw;
+    }
+}
+iframe{
+    width: 100%;
+}
+
+table{
+    border: 2px solid #ffffff;
+    border-collapse: collapse;
+    border-color: #FBFEF9;
+    margin: auto;
+    width: 100%;
+}
+tr{
+    border: 2px solid #ffffff;
+    border-collapse: collapse;
+    border-color: #FBFEF9;
+}
+td{
+    border: 2px solid #ffffff;
+    border-collapse: collapse;
+    border-color: #FBFEF9;
+}
+th{
+    color: #F9C22E;
+    text-align: center;
+}
+li{
+    text-align: left;
+}
+
+h2{
+    margin:0;
+}
+/*-  --------   -*/
+/*     články   -*/
+/*-  --------   -*/
+.article{
+    width: 80%;
+}
+.article h1{
+    font-size:150%;
+    color:#F9C22E;
+}
+.article h3{
+    font-size:120%;
+    color:#F9C22E;
+}
+.articleImgDiv{
+    padding: 3px;
+    height: fit-content;
+}
+.articleImg{
+    border-radius:15%;
+    height: auto;
+}
+.articleSpan{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+

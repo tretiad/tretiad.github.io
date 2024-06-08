@@ -1,0 +1,171 @@
+.league-gothic-font {
+  font-family: "League Gothic", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+body{
+    font-family: "League Gothic", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+/*      navbar      */
+.myNavbar-logo{
+    width: 5rem;
+}
+.myNavbar{ 
+    font-size: 2rem;
+    display: flex;
+    background-color: rgba(0, 0, 0,0.5);
+    backdrop-filter:blur(10px);
+    position: fixed;
+    width: 100%;
+    padding: 0;
+    color: #F9C22E;
+    
+    z-index: 1; /*aby bol navbar nad carouselom*/
+}
+.myNavbar-li{
+    /* margin-left: auto; */
+    transition: 0,5s;
+}.myNavbar-li:hover{
+    transition: 0,5s;
+    color:#E01A4F; 
+}
+.myNavbar-ul{
+    width: 100%;
+}
+.myNavLogo:hover{
+    transition: 0,5s;
+    scale: 110%;
+}
+.myBackgroundimage{
+    width: 100%;
+}
+/*      pod hero sekciou - link page      */
+.Page{
+    /*pomocou chat gpt*/
+    background-image:url("../img/mesto/ulica.png");
+    background-size: cover;
+    background-position: center;/*obrázok zarovná na stred*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;/*rovnaká poloha*/
+    height: 100vh;
+    width: 100%;
+    /* display: flex; */
+    /* background-color: rgba(0, 0, 0, 0.5); Optional overlay */
+}
+
+.card{
+    border: 0;
+    margin: 5px;
+    text-decoration: none;
+}@media (max-width:500px){
+    .card{
+    margin: 10px;
+    margin-bottom: 20px;
+
+    }
+}
+.articlePage{
+    
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: auto;
+    width: 100%;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-right: 5%;
+    /*použitý linear gradient generator*/
+    background: rgb(12,9,13,0.7);
+    background: linear-gradient(115deg, rgba(12,9,13,0.7) 0%, rgba(59,44,64,0.7) 50%, rgba(106,80,115,0.7) 100%);
+}@media (max-width:500px){
+    .articlePage{
+        display:inline-block;
+        align-items:normal;
+        padding-right: 0%;
+}}
+.articleHeading{
+    /* background-color: rgba(0, 0, 0,0.5); */
+    /* backdrop-filter:blur(10px); */
+    color: #F9C22E;
+    text-align: center;
+    height: 100% ;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+.articleImage{
+    width: 100%;
+}
+.article{
+    background-color: #F9C22E;
+}
+/*     linky na stránky       */
+.linkContainer{
+    width: 100%;
+    display: flex;
+    background-image: url("../img/toolsTable.png");
+    background-position:center;/*obrázok zarovná na stred*/
+    background-repeat: no-repeat;
+    background-attachment:local;/*rovnaká poloha*/
+}
+.links{
+    background-color:rgb(0, 0, 0,0.7);
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.linkButton{
+    margin:4vw;
+    font-size: 3rem;
+    border-radius:3rem;
+    border: 0;
+    background-color:#E01A4F;
+}
+@media (max-width:500px){
+    .links{
+        width: 100%;
+       
+    }
+    .linkContainer{
+        flex-direction: row;
+        height: 50vh;
+        justify-content: center;
+        z-index: 0;
+    }
+    .linkButton{
+        font-size:10vw;
+    }
+}
+
+/*     linky na stránky       */
+.footerLogo{
+    width: 10%;
+    margin-left: 3vw;
+}
+.footerContainer{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.myIcon{
+    color: #E01A4F;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.footerSubpages{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 1rem;
+    align-items: center;
+    justify-content:space-evenly;
+}
