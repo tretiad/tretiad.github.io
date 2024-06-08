@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="sk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galéria | Green Leaves</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16x16.png" />
+    <!-- Flowbite -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <nav
+      class="flex items-center justify-between px-[24px] sm:px-[72px] md:px-[196px] py-[24px] bg-black sticky top-0 z-50 duration-500"
+    >
+      <a href="../index.html">
+        <img src="../images/logo-text.svg" alt="Green Leaves" class="h-[72px]" />
+      </a>
+
+      <div class="hidden sm:flex items-center gap-[20px]">
+        <a href="../pages/about.html" class="font-bold text-white hover:text-[#D9C11E] duration-300">O nás</a>
+        <a href="../pages/contact.html" class="font-bold text-white hover:text-[#D9C11E] duration-300">Kontakt</a>
+        <a href="#" class="font-bold text-white hover:text-[#D9C11E] duration-300">Galéria</a>
+      </div>
+
+      <button type="button" id="nav-dropdown-menu-btn" data-dropdown-toggle="nav-dropdown" class="sm:hidden">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="#ffffff"
+          class="bi bi-list"
+          viewBox="0 0 16 16"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"
+          />
+        </svg>
+      </button>
+
+      <!-- Dropdown menu -->
+      <div id="nav-dropdown" class="sm:hidden z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44">
+        <ul class="py-2 text-sm text-[#191600]" aria-labelledby="nav-dropdown-menu-btn">
+          <li>
+            <a href="../pages/about.html" class="block px-4 py-2 hover:bg-gray-100">O Nás</a>
+          </li>
+          <li>
+            <a href="../pages/contact.html" class="block px-4 py-2 hover:bg-gray-100">Kontakt</a>
+          </li>
+          <li>
+            <a href="#" class="block px-4 py-2 hover:bg-gray-100">Galéria</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <section
+      class="flex items-center justify-center h-[400px] relative bg-center bg-cover"
+      style="background-image: url('../images/forest.webp')"
+    >
+      <div class="w-full h-full bg-[#1A2C00] opacity-50 absolute left-0 top-0"></div>
+
+      <h1 class="text-white text-[48px] sm:text-[60px] text-center z-10">Galéria</h1>
+    </section>
+
+    <section class="mt-[96px] w-11/12 sm:w-2/3 mx-auto">
+      <div id="default-carousel" class="relative w-full" data-carousel="slide">
+        <!-- Carousel wrapper -->
+        <div class="relative h-[400px] overflow-hidden rounded-[4px]">
+          <!-- Item 1 -->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img
+              src="../images/gallery/gallery-tree-1.webp"
+              class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              alt="Sadenie stromčekov 1"
+            />
+          </div>
+          <!-- Item 2 -->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img
+              src="../images/gallery/gallery-tree-2.webp"
+              class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              alt="Sadenie stromčekov 2"
+            />
+          </div>
+          <!-- Item 3 -->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img
+              src="../images/gallery/gallery-ocean-1.webp"
+              class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              alt="Čistenie oceánov 1"
+            />
+          </div>
+          <!-- Item 4 -->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img
+              src="../images/gallery/gallery-ocean-2.webp"
+              class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              alt="Čistenie oceánov 2"
+            />
+          </div>
+          <!-- Item 5 -->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img
+              src="../images/gallery/gallery-protest-1.webp"
+              class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              alt="Klimatický protest 1"
+            />
+          </div>
+          <!-- Item 6 -->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img
+              src="../images/gallery/gallery-protest-2.webp"
+              class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              alt="Klimatický protest 2"
+            />
+          </div>
+        </div>
+        <!-- Slider controls -->
+        <button
+          type="button"
+          class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+          data-carousel-prev
+        >
+          <span
+            class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 group-hover:bg-white/50 group-focus:ring-4 group-focus:ring-[#E8E8E6] group-focus:outline-none"
+          >
+            <svg
+              class="w-4 h-4 text-[#E8E8E6] rtl:rotate-180"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 6 10"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M5 1 1 5l4 4"
+              />
+            </svg>
+            <span class="sr-only">Previous</span>
+          </span>
+        </button>
+        <button
+          type="button"
+          class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+          data-carousel-next
+        >
+          <span
+            class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 group-hover:bg-white/50 group-focus:ring-4 group-focus:ring-[#E8E8E6] group-focus:outline-none"
+          >
+            <svg
+              class="w-4 h-4 text-[#E8E8E6] rtl:rotate-180"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 6 10"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="m1 9 4-4-4-4"
+              />
+            </svg>
+            <span class="sr-only">Next</span>
+          </span>
+        </button>
+      </div>
+    </section>
+
+    <footer class="mt-[96px] flex flex-col gap-[12px]">
+      <div
+        class="w-full min-h-[300px] bg-center bg-cover relative"
+        style="background-image: url('../images/turtle.webp')"
+      >
+        <div class="absolute left-0 top-0 h-full w-full bg-[#191600] opacity-50"></div>
+
+        <div class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col items-center gap-[8px]">
+          <h1 class="text-white text-center">Urob niečo ešte dnes</h1>
+          <p class="text-white text-center">Milujeme Zem a chceme, aby tu bola aj pre našich potomkov.</p>
+
+          <div class="mt-[16px]">
+            <a
+              href="./contact.html"
+              class="block bg-[#D9C11E] text-white rounded-[4px] w-fit font-semibold px-[24px] py-[12px] shadow-md duration-300 hover:translate-y-[-4px]"
+            >
+              Pridaj sa k Nám
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex items-center justify-between gap-[24px] px-[24px] sm:px-[72px] md:px-[196px] py-[24px] bg-black">
+        <div class="flex flex-col items-start gap-[24px]">
+          <img src="../images/logo.svg" alt="Green Leaves" class="h-[72px]" />
+
+          <p class="text-white opacity-90">© 2024 Green Leaves. Všetky práva vyhradené.</p>
+        </div>
+
+        <div class="flex flex-col-reverse sm:flex-row items-center gap-[24px]">
+          <p class="font-semibold text-white text-center" id="back-to-top">Vrátiť sa Hore</p>
+
+          <button
+            class="flex items-center justify-center bg-[#D9C11E] text-white rounded-[4px] font-semibold shadow-md w-[36px] h-[36px] duration-300 hover:translate-y-[-4px]"
+            aria-labelledby="back-to-top"
+            onclick="scrollToTop()"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="#191600"
+              class="bi bi-chevron-up"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708z"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </footer>
+
+    <link rel="stylesheet" href="../styles/style.css" />
+
+    <!-- Flowbite scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+
+    <script>
+      window.addEventListener('scroll', function () {
+        const navbar = document.querySelector('nav')
+
+        if (window.scrollY > 0) {
+          navbar.style.paddingBottom = '12px'
+          navbar.style.paddingTop = '12px'
+        } else {
+          navbar.style.paddingBottom = '24px'
+          navbar.style.paddingTop = '24px'
+        }
+      })
+
+      function scrollToTop() {
+        window.scrollTo({ top: 0, behavior: 'smooth' })
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="sk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>O nás | Green Leaves</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16x16.png" />
+    <!-- Flowbite -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <nav
+      class="flex items-center justify-between px-[24px] sm:px-[72px] md:px-[196px] py-[24px] bg-black sticky top-0 z-50 duration-500"
+    >
+      <a href="../index.html">
+        <img src="../images/logo-text.svg" alt="Green Leaves" class="h-[72px]" />
+      </a>
+
+      <div class="hidden sm:flex items-center gap-[20px]">
+        <a href="#" class="font-bold text-white hover:text-[#D9C11E] duration-300">O nás</a>
+        <a href="../pages/contact.html" class="font-bold text-white hover:text-[#D9C11E] duration-300">Kontakt</a>
+        <a href="../pages/gallery.html" class="font-bold text-white hover:text-[#D9C11E] duration-300">Galéria</a>
+      </div>
+
+      <button type="button" id="nav-dropdown-menu-btn" data-dropdown-toggle="nav-dropdown" class="sm:hidden">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="#ffffff"
+          class="bi bi-list"
+          viewBox="0 0 16 16"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"
+          />
+        </svg>
+      </button>
+
+      <!-- Dropdown menu -->
+      <div id="nav-dropdown" class="sm:hidden z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44">
+        <ul class="py-2 text-sm text-[#191600]" aria-labelledby="nav-dropdown-menu-btn">
+          <li>
+            <a href="#" class="block px-4 py-2 hover:bg-gray-100">O Nás</a>
+          </li>
+          <li>
+            <a href="../pages/contact.html" class="block px-4 py-2 hover:bg-gray-100">Kontakt</a>
+          </li>
+          <li>
+            <a href="../pages/gallery.html" class="block px-4 py-2 hover:bg-gray-100">Galéria</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <section
+      class="flex items-center justify-center h-[400px] relative bg-center bg-cover"
+      style="background-image: url('../images/ocean-cleaning-2.webp')"
+    >
+      <div class="w-full h-full bg-[#1A2C00] opacity-50 absolute left-0 top-0"></div>
+
+      <div class="flex flex-col items-center gap-[8px] z-10">
+        <h1 class="text-white text-[48px] sm:text-[60px] text-center">Kto Sme a Čo Robíme?</h1>
+        <p class="text-white text-center">Už viac než 10 rokov meníme tvár našej planéty.</p>
+      </div>
+    </section>
+
+    <section class="flex flex-col sm:flex-row px-[12px] sm:px-[24px]">
+      <div class="flex justify-center items-center flex-1 grow-[1] py-[24px] sm:py-0">
+        <h2>Náš Príbeh</h2>
+      </div>
+
+      <div
+        class="flex flex-col items-center gap-[24px] flex-1 grow-[2] lg:grow-[1] py-[32px] sm:pl-[24px] bg-[#E8E8E6]"
+      >
+        <p class="text-xl text-[#191600] w-[60%]">
+          <b class="text-xl">Green Leaves</b> je nezisková organizácia, ktorá sa usiluje o to, aby naša planéta bola
+          zdravšia a udržateľnejšia pre budúce generácie. Organizácia Green Leaves, ktorú založila skupina nadšených
+          ochrancov životného prostredia, má za cieľ riešiť najnaliehavejšie environmentálne výzvy súčasnosti
+          prostredníctvom štyroch hlavných iniciatív:
+          <b class="text-xl">výsadba stromov, čistenie oceánov, klimatický aktivizmus a ochrana pamiatok.</b>
+        </p>
+
+        <p class="w-[60%]">
+          V spoločnosti Green Leaves veríme, že zdravá planéta je základom prosperujúcich komunít a ekosystémov. Naším
+          poslaním je obnovovať a zachovávať prírodné prostredie výsadbou stromov, čistením oceánov a organizovaním
+          protestov proti zmene klímy. Naším cieľom je inšpirovať a posilniť jednotlivcov a komunity, aby podnikali
+          proaktívne kroky smerom k ochrane životného prostredia.
+        </p>
+      </div>
+    </section>
+
+    <section class="flex flex-col items-center gap-[56px] mt-[96px] w-11/12 sm:w-3/4 mx-auto">
+      <h2>Naše Iniciatívy</h2>
+
+      <div class="flex flex-col gap-[36px]">
+        <a name="tree-planting" class="w-full relative">
+          <div class="absolute top-0 left-0 w-full h-full bg-[#191600] opacity-[0.65]"></div>
+
+          <div
+            class="flex justify-center items-center h-[360px] bg-center bg-cover"
+            style="background-image: url('../images/tree-planting-2.webp')"
+          >
+            <div class="flex flex-col items-center gap-[24px] z-10 px-[12px]">
+              <h3 class="text-white">Výsadba Stromčekov</h3>
+
+              <p class="text-white w-full xl:w-2/5">
+                Stromy sú pre život na Zemi mimoriadne dôležité. Absorbujú oxid uhličitý, poskytujú kyslík a podporujú
+                biodiverzitu. Naše programy výsadby stromov sa zameriavajú na projekty obnovy lesov a mestskej zelene,
+                ktorých cieľom je obnoviť odlesnené oblasti a zveľadiť zelené plochy v mestách. Vďaka spolupráci s
+                miestnymi komunitami, školami a podnikmi vysádzame každý rok tisíce stromov, čím prispievame k boju
+                proti zmene klímy a strate biotopov.
+              </p>
+            </div>
+          </div>
+        </a>
+
+        <a name="ocean-cleaning" class="w-full relative">
+          <div class="absolute top-0 left-0 w-full h-full bg-[#191600] opacity-[0.65]"></div>
+
+          <div
+            class="flex justify-center items-center h-[360px] bg-center bg-cover"
+            style="background-image: url('../images/ocean-cleaning-3.webp')"
+          >
+            <div class="flex flex-col items-center gap-[24px] z-10 px-[12px]">
+              <h3 class="text-white">Čistenie Oceánov</h3>
+
+              <p class="text-white w-full xl:w-2/5">
+                Zdravie našich oceánov má zásadný význam pre celkové zdravie našej planéty. Green Leaves organizuje
+                čistenie pláží, odstraňovanie podmorského odpadu a vzdelávacie kampane zamerané na boj proti
+                znečisťovaniu morí. Naši dobrovoľníci neúnavne pracujú na odstraňovaní plastov a iných znečisťujúcich
+                látok z pobrežia a oceánskych vôd, čím chránia morský život a zabezpečujú čistejšie a zdravšie oceány
+                pre budúce generácie.
+              </p>
+            </div>
+          </div>
+        </a>
+
+        <a name="protest" class="w-full relative">
+          <div class="absolute top-0 left-0 w-full h-full bg-[#191600] opacity-[0.65]"></div>
+
+          <div
+            class="flex justify-center items-center h-[360px] bg-center bg-cover"
+            style="background-image: url('../images/protest-2.webp')"
+          >
+            <div class="flex flex-col items-center gap-[24px] z-10 px-[12px]">
+              <h3 class="text-white">Zelené Protesty</h3>
+
+              <p class="text-white w-full xl:w-2/5">
+                Obhajoba a informovanosť sú kľúčovými zložkami našej práce. Zelené listy mobilizujú komunity, aby sa
+                zúčastňovali na klimatických protestoch a environmentálnych kampaniach, obhajovali zmeny v politike a
+                zvýšili aktivity v oblasti klímy. Veríme v silu kolektívnych hlasov, ktoré môžu ovplyvniť rozhodovacie
+                orgány a viesť k zmysluplným zmenám. Naše protesty a kampane zvyšujú povedomie o klimatických zmenách.
+              </p>
+            </div>
+          </div>
+        </a>
+
+        <a name="national-monument" class="w-full relative">
+          <div class="absolute top-0 left-0 w-full h-full bg-[#191600] opacity-[0.65]"></div>
+
+          <div
+            class="flex justify-center items-center h-[360px] bg-center bg-cover"
+            style="background-image: url('../images/national-monument-2.webp')"
+          >
+            <div class="flex flex-col items-center gap-[24px] z-10 px-[12px]">
+              <h3 class="text-white">Ochrana Pamiatok</h3>
+
+              <p class="text-white w-full xl:w-2/5">
+                Národné pamiatky sú poklady, ktoré majú kultúrny, historický a prírodný význam. Zaväzujeme sa chrániť
+                tieto nenahraditeľné pamiatky pred environmentálnymi hrozbami a degradáciou. Naše úsilie zahŕňa
+                organizovanie projektov čistenia a obnovy, presadzovanie prísnejších ochranných politík a vzdelávanie
+                verejnosti o dôležitosti zachovania týchto pamiatok. Ochranou národných pamiatok zabezpečujeme, aby
+                tieto cenné zdroje zostali nedotknuté.
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section class="mt-[96px] flex flex-col items-center gap-[56px]">
+      <h2>Aktuálne Čísla</h2>
+
+      <table class="border border-[#191600] scale-75 sm:scale-100">
+        <tr>
+          <th class="p-[12px] border-b border-r border-[#191600]">Dátum začatia projektu</th>
+          <th class="p-[12px] border-b border-r border-[#191600]">Počet dobrovoľníkov</th>
+          <th class="p-[12px] border-b border-r border-[#191600]">Vysadených stromčekov</th>
+          <th class="p-[12px] border-b border-[#191600]">Vyzbieraného odpadu z oceánov</th>
+        </tr>
+
+        <tr>
+          <td class="p-[12px] border-r border-[#191600]">1.1.2014</td>
+          <td class="p-[12px] border-r border-[#191600]">6 312</td>
+          <td class="p-[12px] border-r border-[#191600]">35 981</td>
+          <td class="p-[12px]">412 355 kilogramov</td>
+        </tr>
+      </table>
+    </section>
+
+    <footer class="mt-[96px] flex flex-col gap-[12px]">
+      <div
+        class="w-full min-h-[300px] bg-center bg-cover relative"
+        style="background-image: url('../images/turtle.webp')"
+      >
+        <div class="absolute left-0 top-0 h-full w-full bg-[#191600] opacity-50"></div>
+
+        <div class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col items-center gap-[8px]">
+          <h1 class="text-white text-center">Urob niečo ešte dnes</h1>
+          <p class="text-white text-center">Milujeme Zem a chceme, aby tu bola aj pre našich potomkov.</p>
+
+          <div class="mt-[16px]">
+            <a
+              href="./contact.html"
+              class="block bg-[#D9C11E] text-white rounded-[4px] w-fit font-semibold px-[24px] py-[12px] shadow-md duration-300 hover:translate-y-[-4px]"
+            >
+              Pridaj sa k Nám
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex items-center justify-between gap-[24px] px-[24px] sm:px-[72px] md:px-[196px] py-[24px] bg-black">
+        <div class="flex flex-col items-start gap-[24px]">
+          <img src="../images/logo.svg" alt="Green Leaves" class="h-[72px]" />
+
+          <p class="text-white opacity-90">© 2024 Green Leaves. Všetky práva vyhradené.</p>
+        </div>
+
+        <div class="flex flex-col-reverse sm:flex-row items-center gap-[24px]">
+          <p class="font-semibold text-white text-center" id="back-to-top">Vrátiť sa Hore</p>
+
+          <button
+            class="flex items-center justify-center bg-[#D9C11E] text-white rounded-[4px] font-semibold shadow-md w-[36px] h-[36px] duration-300 hover:translate-y-[-4px]"
+            aria-labelledby="back-to-top"
+            onclick="scrollToTop()"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="#191600"
+              class="bi bi-chevron-up"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708z"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </footer>
+
+    <link rel="stylesheet" href="../styles/style.css" />
+
+    <!-- Flowbite scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+
+    <script>
+      window.addEventListener('scroll', function () {
+        const navbar = document.querySelector('nav')
+
+        if (window.scrollY > 0) {
+          navbar.style.paddingBottom = '12px'
+          navbar.style.paddingTop = '12px'
+        } else {
+          navbar.style.paddingBottom = '24px'
+          navbar.style.paddingTop = '24px'
+        }
+      })
+
+      function scrollToTop() {
+        window.scrollTo({ top: 0, behavior: 'smooth' })
+      }
+    </script>
+  </body>
+</html>
