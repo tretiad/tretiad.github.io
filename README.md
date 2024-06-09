@@ -29,7 +29,7 @@ Nižšie sú linky pre zdieľané webstránky:
 
 [Andrej Pačil]
 
-[Tobias Papán]
+[Tobias Papán](https://tretiad.github.io/papan)
 
 [Filip Plaštiak](https://tretiad.github.io/plastiak)
 
