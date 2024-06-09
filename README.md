@@ -31,7 +31,7 @@ Nižšie sú linky pre zdieľané webstránky:
 
 [Tobias Papán]
 
-[Filip Plaštiak]
+[Filip Plaštiak](https://tretiad.github.io/plastiak)
 
 [Samuel Rieger](https://tretiad.github.io/rieger)
 
