@@ -39,4 +39,4 @@ Nižšie sú linky pre zdieľané webstránky:
 
 [Henrich Strapec](https://tretiad.github.io/strapec)
 
-[Alena Šurinčíková]
+[Alena Šurinčíková](https://tretiad.github.io/surincikova)
