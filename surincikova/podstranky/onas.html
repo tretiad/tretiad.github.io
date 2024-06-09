@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    
+    
+</head>
+<body>
+    <section class="header-s">
+        <nav>
+            <a href="../index.html"><img src="../img/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="../index.html">DOMOV</a></li>
+                    <li><a href="../podstranky/galeria.html">GALERIA</a></li>
+                    <li><a href="../podstranky/kontakt.html">KONTAKT</a></li>
+                    <li><a href="../podstranky/onas.html">ONAS</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <section class="onas">
+            <h1>O NÁS</h1>
+            <p>Ahojte, predstavujem vám zamestnancov našej školy</p>
+            <div class="row">
+                <div class="onas-col">
+                    <img src="../img/1.jpg" alt="">
+                <h3>Sofia Nováková</h3>
+                <p>Sofia je odhodlaná žena, ktorá pracuje v ekologickej
+                     firme zameranej na ochranu životného prostredia. Každý deň s 
+                     nadšením prispieva k projektom, ktoré pomáhajú znižovať uhlíkovú 
+                     stopu a podporujú udržateľný rozvoj.Sofia verí, že každá malá zmena má veľký 
+                     vplyv, a jej práca je pre ňu viac než
+                     len povolaním – je to jej spôsob, ako prispieť k lepšej budúcnosti
+                      pre všetkých.
+                </p>
+                </div>
+                <div class="onas-col">
+                    <img src="../img/3.jpg" alt="">
+                <h3>Emma Kováčová</h3>
+                <p>Emma je dynamická žena pracujúca v našej ekologickej spoločnosti. 
+                    Ako odborníčka na obnoviteľné zdroje energie, vedie tím, ktorý vyvíja
+                     nové solárne a veterné technológie. Jej práca má zásadný význam pre 
+                     transformáciu energetického sektora smerom k udržateľnosti. 
+                     Emma sa vášnivo venuje výskumu a implementácii riešení, ktoré
+                      minimalizujú environmentálny dopad a podporujú zelenú ekonomiku. 
+                      Jej úsilie je motivované túžbou 
+                    zanechať svetu čisté a zdravé prostredie pre budúce generácie
+                </p>
+                </div>
+                <div class="onas-col">
+                    <img src="../img/2.jpg" alt="">
+                <h3>Natália Horváthová</h3>
+                <p>Zuzana je duša srdcom prepojená s prírodou.
+                      Jej práca je pre ňu viac než len povolaním – je to umenie, ktorým
+                       premieňa betónové džungle na zelené oázy. S citom pre detail 
+                       navrhuje komunitné záhrady, zelené strechy a parky, kde ľudia 
+                       môžu nachádzať pokoj a harmóniu. Zuzana verí, že príroda je 
+                       najväčšou múzou, a jej kreatívne riešenia prispievajú k tomu, 
+                       aby mestá dýchali a ľudia opäť našli spojenie s okolím. Každý 
+                       jej projekt je vyjadrením lásky k Zemi a túžby zanechať po sebe
+                        svet plný života a krásy.
+                </p>
+                </div>
+                
+            </div>
+    
+        </section>
+    </section>
+    <section class="footer">
+        <h4>HEY</h4>
+        <P>kontakt: 021 547 584
+        </P>
+        <div class="icon">
+            <i class="fa fa-instagram"></a></i>
+            <i class="fa fa-pinterest"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by Aluska
+        </p>
+
+    </section>
+
+  
+
+   
+   
+
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+    <script src="https://kit.fontawesome.com/f4f183d107.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    
+    
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="./index.html"><img src="./img/logo1.png" alt="" class="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="./index.html">DOMOV</a></li>
+                    <li><a href="./podstranky/galeria.html">GALERIA</a></li>
+                    <li><a href="./podstranky/kontakt.html">KONTAKT</a></li>
+                    <li><a href="./podstranky/onas.html">ONAS</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+<div class="podtext">
+    <h1>ECOLOGY</h1>
+    <p>Chráňme našu planétu tým, že budeme žiť udržateľne a zodpovedne využívať prírodné zdroje,<br> aby sme zabezpečili zdravé životné prostredie pre budúce generácie.
+    </p>
+    
+
+</div>
+    </section>
+
+    <section class="tipy">
+        <h1>TIPY A RADY </h1>
+        <p>Žiť ekologickejšie je prínosné pre životné prostredie aj pre naše zdravie. 
+            Tu je niekoľko tipov a rád, ako zlepšiť svoj životný štýl a byť viac ekologicky zodpovedný
+        </p>
+        <div class="row">
+            <div class="tipy-rol">
+                <h3>Minimalizuj odpad:</h3>
+                <p>Recykluj a kompostuj odpad.
+                    Nakupuj produkty s minimálnym alebo recyklovateľným obalom.
+                    Vyhýbaj sa jednorazovým plastom, používaj opakovateľné tašky, fľaše a nádoby.</p>
+            </div>
+            <div class="tipy-rol">
+                <h3>Používaj alternatívne spôsoby dopravy:</h3>
+                <p>Choď pešo, jazdi na bicykli alebo využívaj verejnú dopravu.
+                    Ak musíš používať auto, zvažuj zdieľanie jázd alebo používanie hybridného/elektrického vozidla.
+                </p>
+            </div>
+            <div class="tipy-rol">
+                <h3>Nakupuj s rozvahou:</h3>
+                <p>Kupuj menej, ale kvalitnejšie produkty, ktoré ti vydržia dlhšie.
+                    Uprednostňuj výrobky z druhej ruky, recyklované alebo ekologicky certifikované.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <h4>HEY</h4>
+        <P>kontakt: 021 547 584
+        </P>
+        <div class="icon">
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-pinterest"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by Aluska
+        </p>
+
+    </section>
+
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+    <script src="https://kit.fontawesome.com/f4f183d107.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
