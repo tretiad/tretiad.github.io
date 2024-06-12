@@ -35,7 +35,7 @@ Nižšie sú linky pre zdieľané webstránky:
 
 [Samuel Rieger](https://tretiad.github.io/rieger)
 
-[Matúš Skurčák]
+[Matúš Skurčák](https://tretiad.github.io/skurcak)
 
 [Henrich Strapec](https://tretiad.github.io/strapec)
 
