@@ -1,0 +1,292 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: rgb(234,235,241);
+    background: linear-gradient(90deg, rgba(234,235,241,1) 30%, rgba(255,255,255,1) 60%);
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.navbar{
+    width: 100%;
+    background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 30%, rgba(234,235,241,1) 60%);
+position: fixed;
+top: 0;
+z-index: 2;
+    
+}
+
+.container-fluid{
+    background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 30%, rgba(234,235,241,1) 60%);
+
+}
+
+.navbar-brand img {
+
+    width: 120px;
+}
+
+.obrazkyvela {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.obrazkyvela img{
+object-fit: cover;
+max-height: 80vh;
+    
+}
+
+
+
+.koniec-domov{
+    display: flex;
+    background-color: white;
+    width: 80%;
+    border-radius: 60px;
+}
+
+.text-domov{
+    width: 60%;
+    margin-left: 100px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.obrazok-domov img{
+    width: 100%;
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    filter: grayscale(100%);
+     transition-duration: 400ms;
+}
+
+.obrazok-domov :hover{
+    filter: grayscale(0);
+    transition-duration: 400ms;
+}
+
+
+.galeria-uvod{
+    margin-top: 150px;
+    display: flex;
+    background-color: white;
+    width: 80%;
+    border-radius: 35px;
+}
+
+.galeria-text{
+    width: 80%;
+    margin-left: 100px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.nadpis-galeria{
+    color: transparent;
+    -webkit-text-stroke: 2px #b7d2db;;
+    position: relative;
+    transition: 0.5s;
+}
+.nadpis-galeria:hover{
+color: #b7d2db;
+transition: 0.5s;
+cursor: pointer;
+
+}
+
+
+
+
+
+.ludia-moda div{
+
+    width: 450px;
+    height: 450px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+   margin: 10px;
+   border-radius: 10%;
+
+}
+    
+
+.ludia-moda{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    transition: 0.5s;
+}
+
+.ludia-moda img{
+    width: 90%;
+    border-radius: 10%;
+    transition: 0.5s;
+}
+
+.ludia-moda :hover{
+transform:scale(1.1);
+
+}
+
+.kontakt{
+    display: flex;
+    margin-top: 20%;
+    width: 80%;
+    justify-content: space-between;
+    
+}
+
+.Kontakt_nadpis{
+    display: flex;
+    margin-top: 30%;
+    width: 80%;
+    justify-content: space-between;
+    color: transparent;
+    -webkit-text-stroke: 2px #b7d2db;;
+    position: relative;
+    transition: 0.5s;
+}
+
+.Kontakt_nadpis :hover{
+    color: #b7d2db;
+transition: 0.5s;
+cursor: pointer;
+}
+
+
+
+.udaje{
+    font-size:20px ;
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+.mapa {
+    border-radius: 60px;
+    width: 60%;
+}
+
+
+.kontakt-postup{
+    margin-top: 150px;
+    display: flex;
+    background-color: white;
+    width: 90%;
+    border-radius: 20px;
+}
+
+.postup{
+    color: transparent;
+    -webkit-text-stroke: 2px #b7d2db;;
+    position: relative;
+    transition: 0.5s;
+}
+
+.postup :hover{
+    color: #b7d2db;
+    transition: 0.5s;
+    cursor: pointer;
+      
+}
+
+.text-postup{
+    font-size: 25px;
+}
+
+.o-nas{
+    margin-top: 200px;
+    display: flex;
+    background-color: white;
+    width: 80%;
+    border-radius: 60px;
+}
+
+.nazov-o-nas{
+   margin: 1%;
+   color: transparent;
+   -webkit-text-stroke: 2px #b7d2db;;
+   position: relative;
+   transition: 0.5s;
+}
+
+.nazov-o-nas :hover{
+    color: #b7d2db;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.text-o-nas{
+    width: 60%;
+    margin-left: 100px;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.o-nas-link{
+    color: black;
+    position: relative;
+    transition: 0.5s;
+}
+
+.o-nas-link:hover{
+    color: #b7d2db;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+
+    .koniec-domov {
+        flex-direction: column;
+    }
+
+    .galeria-text {
+        margin-left: 40px;
+    }
+
+    .ludia-moda {
+        flex-direction: column;
+        margin-left: -60px;
+    }
+
+    .ludia-moda div {
+        margin-top: 200px;
+    }
+
+    .o-nas {
+        flex-direction: column;
+
+    }
+
+    .text-o-nas {
+        margin-left: 50px;
+        font-size: 20px;
+    }
+
+    .nazov-o-nas {
+        margin-left: 40px;
+    }
+
+    .kontakt {
+        flex-direction: column;
+    }
+
+    .mapa {
+        width: 100%;
+    }
+
+}
