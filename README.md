@@ -21,7 +21,7 @@ Nižšie sú linky pre zdieľané webstránky:
 
 [Milan Kovaľ]
 
-[Dávid Kšendzuľák]
+[Dávid Kšendzuľák](https://tretiad.github.io/ksendzulak)
 
 [Pavol Meľo]
 
